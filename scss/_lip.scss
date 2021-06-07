@@ -1,0 +1,41 @@
+.btn{
+    padding: 1rem;
+    width: 8rem;
+    font-size: 1.4rem;
+    height: 4rem;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.row{
+    padding-right: auto;
+    padding-left: auto;
+}
+
+.paragraph{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+
+/// MARGIN
+.m-t-l{
+    margin-top: 5rem;
+}
+.m-t-m{
+    margin-top: 3rem;
+}
+.m-t-s{
+    margin-top: 2rem;
+}
+
+// Text Center
+.center{
+    text-align: center;
+}
+
+.active{
+    color: white;
+}

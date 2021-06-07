@@ -1,0 +1,51 @@
+// ROOT
+:root{
+    --primary-color:#212020;
+    --white:#fff;
+    --second-color:#E3D107;
+}
+
+$bg-largest: 1330px;
+$bg-medium:1278px;
+$bg-small:1185px;
+$bg-smallest:1022px;
+$bg-mobile:820px;
+$bd-smobile:650px;
+
+$bd-ss:500px;
+$bd-xs:375px;
+
+
+html{
+    font-size: 62.5%;
+
+    @media only screen and (max-width: $bg-largest ){
+        font-size: 60%;
+    }
+
+    @media only screen and (max-width: $bg-medium ){
+        font-size: 45%;
+    }
+
+    @media only screen and (max-width: $bg-mobile ){
+        font-size: 35%;
+    }
+
+}
+*,
+*::after,
+*::before{
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+   
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+}
+
